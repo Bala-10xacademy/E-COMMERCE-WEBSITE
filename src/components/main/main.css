@@ -1,0 +1,22 @@
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .main-section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .main-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main-items-container {
+      justify-content: center;
+    }
+  }

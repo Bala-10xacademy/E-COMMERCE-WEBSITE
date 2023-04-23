@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logo:hover {
+    color: #ffc107;
+  }
+  
+  .fa-shopping-cart {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .fa-shopping-cart:hover {
+    color: #ffc107;
+  }
+  
+  span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+  }
